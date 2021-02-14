@@ -22,6 +22,7 @@ h1 {
 
 .nav-links {
   list-style: none;
+  flex: 1;
 }
 
 .nav-links li {
@@ -70,4 +71,8 @@ button:hover {
   border: none;
   border-radius: 7px;
   margin-right: 10px;
+}
+
+.search:focus {
+  outline: none;
 }
