@@ -12,6 +12,8 @@ header {
   align-items: center;
   padding: 30px 10%;
   color: black;
+  background-color: #c5a880;
+  box-shadow: 2px 3px 7px rgba(0, 0, 0, 0.5);
 }
 
 h1 {
@@ -28,12 +30,13 @@ h1 {
 }
 
 .nav-links li a {
-  transition: all 0.4s ease-out;
-  color: black;S
+  transition: all 0.3s ease-out;
+  color: black;
+  display: inline-block;
 }
 
 .nav-links li a:hover {
-  background-color: grey;
+  color: white;
 }
 
 button,
@@ -46,16 +49,15 @@ li {
 }
 
 button {
-    border: none;
-    padding: 9px 25px;
-    cursor: pointer;
-    border-radius: 20px;
-    background-color: rgba(0, 136, 169, 1);
-    color: white;
-    transition: all 0.4s ease-out;
+  border: none;
+  padding: 9px 25px;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: rgba(0, 136, 169, 1);
+  color: white;
+  transition: all 0.4s ease-out;
 }
 
-button:hover{
-  background-color: rgba(0, 136, 169, 0.8)
-
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
 }
