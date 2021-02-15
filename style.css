@@ -156,6 +156,7 @@ button:hover {
     background-color: #fff3b2;
     z-index: -1;
     transform: translateX(100%);
+    opacity: 0;
     transition: all 1s;
   }
   form {
@@ -164,6 +165,8 @@ button:hover {
   .menu-toggle {
     display: flex;
   }
-  .nav-links .slide {
+  .nav-links.slide {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
